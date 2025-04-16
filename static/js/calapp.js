@@ -7,7 +7,7 @@ const eqBtn = document.querySelector("#eq");
 const decPoint = document.querySelector("#decp");
 const opnSyms = ["+", "-", "*", "/"];
 
-for(let i=0; i<9 ; i++){
+for(let i=0; i<10 ; i++){
     const qs = "#num" + i;
     numKeys.push(document.querySelector(qs));
     numKeys[i].addEventListener("click", () => {
